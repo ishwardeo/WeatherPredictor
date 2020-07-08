@@ -25,9 +25,13 @@ class WeatherPredictorTests: XCTestCase {
     }
 
     func testWeatherDataFromAPI() {
+        let viewModel = MasterViewModel()
+        let fetchedWeatherData = viewModel.fetchWeatherDetailsFor(cityName: "Delhi")
+        XCTAssertNil(fetchedWeatherData, "Fetched weather data is nil")
         
+        XCTAssertTrue(fetchedWeatherData is CityWeather, "Fetched weather data is not in correct JSON")
     }
-    
+
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {

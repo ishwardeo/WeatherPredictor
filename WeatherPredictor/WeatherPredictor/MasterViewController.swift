@@ -18,6 +18,9 @@ class MasterViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.accessibilityIdentifier = String(describing: MasterViewController.self)
+        
         setupClosures()
     }
 
@@ -89,6 +92,11 @@ class MasterViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         let city = cities[indexPath.row]
         cell.textLabel!.text = city
+        
+        cell.isAccessibilityElement = true
+        cell.accessibilityIdentifier = String(format: "TVC_%d_%d",
+        indexPath.section, indexPath.row)
+
         return cell
     }
 

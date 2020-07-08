@@ -11,6 +11,11 @@
 import Foundation
 
 struct GlobalConstants {
+    static let SHOW_CITIES = "show_cities"
+
+    static let SHOW_CURRENT_CITY_MAP = "show_current_city_map"
+    
+    static let FORECAST_WEATHER = "forecast_weather"
     
     static let WEATHER_API_KEY_NAME = "weather_api_key"
 

@@ -23,6 +23,16 @@
 		045C118124B307CC00C126D7 /* DecodbleForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C118024B307CC00C126D7 /* DecodbleForecastModel.swift */; };
 		045C118224B307CC00C126D7 /* DecodbleForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C118024B307CC00C126D7 /* DecodbleForecastModel.swift */; };
 		045C118324B307CC00C126D7 /* DecodbleForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C118024B307CC00C126D7 /* DecodbleForecastModel.swift */; };
+		0463B0D124B5712D006F85D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047806F124B1B89B003003B6 /* AppDelegate.swift */; };
+		0463B0D224B5712D006F85D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047806F324B1B89B003003B6 /* SceneDelegate.swift */; };
+		0463B0D324B5712D006F85D8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047806F524B1B89B003003B6 /* MasterViewController.swift */; };
+		0463B0D424B5712D006F85D8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047806F724B1B89B003003B6 /* DetailViewController.swift */; };
+		0463B0D524B5712D006F85D8 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F19AD24B24E0F00A8BCB2 /* DetailViewModel.swift */; };
+		0463B0D624B5712E006F85D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047806F124B1B89B003003B6 /* AppDelegate.swift */; };
+		0463B0D724B5712E006F85D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047806F324B1B89B003003B6 /* SceneDelegate.swift */; };
+		0463B0D824B5712E006F85D8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047806F524B1B89B003003B6 /* MasterViewController.swift */; };
+		0463B0D924B5712E006F85D8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047806F724B1B89B003003B6 /* DetailViewController.swift */; };
+		0463B0DA24B5712E006F85D8 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F19AD24B24E0F00A8BCB2 /* DetailViewModel.swift */; };
 		047806F224B1B89B003003B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047806F124B1B89B003003B6 /* AppDelegate.swift */; };
 		047806F424B1B89B003003B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047806F324B1B89B003003B6 /* SceneDelegate.swift */; };
 		047806F624B1B89B003003B6 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047806F524B1B89B003003B6 /* MasterViewController.swift */; };
@@ -405,15 +415,20 @@
 				044449BD24B2D97800ADB204 /* CurrentLocationWeatherModel.swift in Sources */,
 				0478073224B1BE72003003B6 /* MasterViewModel.swift in Sources */,
 				04E6367A24B2D02200049D11 /* LatestCurrentLocation.swift in Sources */,
+				0463B0D524B5712D006F85D8 /* DetailViewModel.swift in Sources */,
 				0478073624B1C384003003B6 /* DataDecoder.swift in Sources */,
 				0478072E24B1BD07003003B6 /* Utilities.swift in Sources */,
 				0478072A24B1BCB8003003B6 /* GlobalConstants.swift in Sources */,
 				04DC44AA24B34E3E0095327E /* DayWeatherModel.swift in Sources */,
+				0463B0D224B5712D006F85D8 /* SceneDelegate.swift in Sources */,
 				04557E4A24B21138000CC49F /* AlertController.swift in Sources */,
+				0463B0D124B5712D006F85D8 /* AppDelegate.swift in Sources */,
+				0463B0D424B5712D006F85D8 /* DetailViewController.swift in Sources */,
 				04E6367624B2CAA700049D11 /* UserLocationViewController.swift in Sources */,
 				04DC44B824B34F260095327E /* OneCell.swift in Sources */,
 				045C118224B307CC00C126D7 /* DecodbleForecastModel.swift in Sources */,
 				04DC44A624B34DDE0095327E /* ForecastTableVC.swift in Sources */,
+				0463B0D324B5712D006F85D8 /* MasterViewController.swift in Sources */,
 				0478070B24B1B8A3003003B6 /* WeatherPredictorTests.swift in Sources */,
 				04557E4624B20AF4000CC49F /* ViewManager.swift in Sources */,
 				04557E4224B1FD83000CC49F /* TextViewController.swift in Sources */,
@@ -427,15 +442,20 @@
 				044449BE24B2D97800ADB204 /* CurrentLocationWeatherModel.swift in Sources */,
 				0478073324B1BE72003003B6 /* MasterViewModel.swift in Sources */,
 				04E6367B24B2D02200049D11 /* LatestCurrentLocation.swift in Sources */,
+				0463B0DA24B5712E006F85D8 /* DetailViewModel.swift in Sources */,
 				0478073724B1C384003003B6 /* DataDecoder.swift in Sources */,
 				0478072F24B1BD07003003B6 /* Utilities.swift in Sources */,
 				0478072B24B1BCB8003003B6 /* GlobalConstants.swift in Sources */,
 				04DC44AB24B34E3E0095327E /* DayWeatherModel.swift in Sources */,
+				0463B0D724B5712E006F85D8 /* SceneDelegate.swift in Sources */,
 				04557E4B24B21138000CC49F /* AlertController.swift in Sources */,
+				0463B0D624B5712E006F85D8 /* AppDelegate.swift in Sources */,
+				0463B0D924B5712E006F85D8 /* DetailViewController.swift in Sources */,
 				04E6367724B2CAA700049D11 /* UserLocationViewController.swift in Sources */,
 				04DC44B924B34F260095327E /* OneCell.swift in Sources */,
 				045C118324B307CC00C126D7 /* DecodbleForecastModel.swift in Sources */,
 				04DC44A724B34DDE0095327E /* ForecastTableVC.swift in Sources */,
+				0463B0D824B5712E006F85D8 /* MasterViewController.swift in Sources */,
 				0478071624B1B8A3003003B6 /* WeatherPredictorUITests.swift in Sources */,
 				04557E4724B20AF4000CC49F /* ViewManager.swift in Sources */,
 				04557E4324B1FD83000CC49F /* TextViewController.swift in Sources */,

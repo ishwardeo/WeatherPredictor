@@ -57,8 +57,9 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bw6-Kg-HaX">
                                 <rect key="frame" x="20" y="729" width="374" height="33"/>
+                                <accessibility key="accessibilityConfiguration" identifier="show_current_city_map"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <state key="normal" title="See Current Location Weather"/>
+                                <state key="normal" title="show current city map"/>
                                 <connections>
                                     <action selector="showMapOfCurrentLocation:" destination="JEX-9P-axG" eventType="touchUpInside" id="D4G-U2-Laa"/>
                                 </connections>
@@ -170,11 +171,12 @@
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfP-fG-zdc">
                                 <rect key="frame" x="20" y="648" width="374" height="40"/>
+                                <accessibility key="accessibilityConfiguration" identifier="show_cities"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Ice-1X-THu"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                <state key="normal" title="Fetch Weather"/>
+                                <state key="normal" title="show cities"/>
                                 <connections>
                                     <action selector="fetchWeatherDetails:" destination="ewc-bF-1bQ" eventType="touchUpInside" id="WjO-sR-5SX"/>
                                 </connections>
@@ -256,11 +258,12 @@
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6db-3k-MRt">
                                 <rect key="frame" x="20" y="688" width="374" height="44"/>
+                                <accessibility key="accessibilityConfiguration" identifier="forecast_weather"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="EsZ-6w-8Do"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <state key="normal" title="See weather for next 5 days 3 hours"/>
+                                <state key="normal" title="forecast weather"/>
                                 <connections>
                                     <action selector="forecastForNextFiveDays:" destination="LxQ-FL-bzq" eventType="touchUpInside" id="eBo-3Z-p8U"/>
                                 </connections>

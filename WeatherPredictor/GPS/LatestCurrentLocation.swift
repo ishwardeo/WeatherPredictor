@@ -12,5 +12,5 @@ struct LatestCurrentLocation {
     static var latitude: Double?
     static var longitude: Double?
     
-    static var city: String?
+    static var city: String? = "Delhi"
 }
